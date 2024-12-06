@@ -1,4 +1,3 @@
-import './App.css'
 import Home from './page/Home'
 import Cart from './page/Cart'
 import Products from './page/Products'
