@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { useSelector } from "react-redux"
+import logo from '../assets/logo.png'
 const Nav = () => {
   const cartItems=useSelector(state=>state.cart);
 
@@ -11,7 +12,7 @@ const Nav = () => {
     <nav>
         <ul>
           <li className="logo"><Link to='/'>
-            <img src="logo.png" alt="logo"/>
+            <img src={logo} alt="logo"/>
               <div>
                 <h4>Paradise Nursery</h4>
                 <p>Where Green Meets Serenity</p>
