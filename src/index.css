@@ -208,7 +208,6 @@ section.products,section.cart{
     overflow: hidden;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.53);
     z-index: 100;
     
 }
@@ -224,6 +223,7 @@ section.products,section.cart{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.523);
 }
 .cover .cloes{
     position: absolute;
